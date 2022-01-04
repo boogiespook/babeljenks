@@ -1,0 +1,38 @@
+{
+  "language":[    
+    {"name":"Arabic", 
+      "code":"ar", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["Wahid","Itnan","Talata","Arba'a","Hamsa","Sitta","Sab'a","Tamaniya","Tis'a","Ashra","Marhaban","Min Fadlak","Shukran","Mae alsalama","Naam","Laa","Hasanan"]
+    },    
+    {"name":"Cornish", 
+      "code":"co", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["onan","dew","tri","peswar","pymp","hwegh","seyth","eth","naw","deg","Lowena dhis","Mar pleg","Meur ras","Duw genes","Ya","Na","Ok"]
+    },
+    {"name":"Russian", 
+      "code":"ru", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["Adeen","Dva","Tree","Chyetirye","Pyat","Shest","Syem","Nosyem","Dyev-yat","Dyes-yat","Privet","pozhaluysta","Spasibo","do svidaniya","Da","Nyet","v poryadke"]
+    },
+    {"name":"Hebrew", 
+      "code":"hb", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["Echad","Sh’nayeem","Sh’loshah","Arba-ah","Chameesha","Sheesha","Sheev-ah","Sh’monah","Teesh-ah","Ahsarah","Shalom","bevakasha","toda","lehitraot","Ken","Lo","beSeder"]
+    },
+    {"name":"Spanish", 
+      "code":"sp", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["uno","dos","tres","cuatro","cinco","seis","siete","ocho","nueve","diez","Hola","por favor","Gracias","Adios","Si","No","está bien"]
+    },
+    {"name":"Portuguese", 
+      "code":"pt", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["Um","Dois","Três","Quatro","Cinco","Seis","Sete","Oito","Nove","Dez","Olá","por favor","obrigado","adeus","sim","não","OK"]
+    },
+    {"name":"German", 
+      "code":"de", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["Eins","Zwei","Drei","Vier","Fünf","Sechs","Sieben","Acht","Neun","Zehn","Hallo","Bitte","Danke","Auf Wiedersehen","Ja","Nein","alles ist gut"]
+    }            
+]}  
