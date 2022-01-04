@@ -28,8 +28,8 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -59,14 +59,12 @@ foreach ($GLOBALS['json']['language'] as $lang) {
 }
 
 function putJsonLanguage() {
-
 foreach ($GLOBALS['json']['language'] as $lang) {
 	print '<li><a href="index.php?lang=' . $lang['code'] . '">' . $lang['name'] . '</a></li>';
 	} 
 }
 
 function putWord() {
-	
 if( isset($_REQUEST['lang']) ) {
    $langCode = $_REQUEST['lang'];
 	} else {
@@ -76,8 +74,9 @@ if( isset($_REQUEST['lang']) ) {
 foreach ($GLOBALS['json']['language'] as $lang) {
 	if($lang['code'] == $langCode)	{
 		$randNo = rand(0,count($lang['englishWords'])-1);
-		echo '<h1 class="bigNumber">' . $lang['englishWords'][$randNo] . '</h1>' . 
-		'<div class="answer">'  . ucfirst($lang['translatedWords'][$randNo]) . '</div>';
+#		echo '<h1 class="bigNumber">' . $lang['englishWords'][$randNo] . '</h1>' . 
+#		'<div class="answer">'  . ucfirst($lang['translatedWords'][$randNo]) . '</div>';
+echo '<button class="button" type="button" data-hover="' . ucfirst($lang['translatedWords'][$randNo]) . '"> <span>'. $lang['englishWords'][$randNo] . '</span></button>';
 	}
 }
 
@@ -118,7 +117,7 @@ foreach ($GLOBALS['json']['language'] as $lang) {
         <div class="hero-content">
             <div class="hero-text">
                 <?php putWord(); ?>
-                <a href="javascript:location.reload();" class="btn btn-border">Next</a>
+               <br> <a href="javascript:location.reload();" class="btn btn-border">Next</a>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
     </div><!-- /.hero -->
@@ -128,12 +127,13 @@ foreach ($GLOBALS['json']['language'] as $lang) {
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+<!--    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script> -->
+
   
 </body>
 </html>
