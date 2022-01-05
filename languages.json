@@ -34,5 +34,10 @@
       "code":"de", 
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["Eins","Zwei","Drei","Vier","Fünf","Sechs","Sieben","Acht","Neun","Zehn","Hallo","Bitte","Danke","Auf Wiedersehen","Ja","Nein","alles ist gut"]
-    }            
+    },
+    {"name":"Greek", 
+      "code":"gr", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["éna","dío","tría","tésera","pénde","éxi","eptá","októ","enéa","déka","YAH-soo","para-kah-LOE","eff-kha-ri-STOE","YAH-soo","neh","OH-hee","Entáxei"]
+    }             
 ]}  
