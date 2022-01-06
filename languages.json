@@ -2,8 +2,8 @@
   "language":[    
     {"name":"Arabic", 
       "code":"ar", 
-      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
-      "translatedWords":["Wahid","Itnan","Talata","Arba'a","Hamsa","Sitta","Sab'a","Tamaniya","Tis'a","Ashra","Marhaban","Min Fadlak","Shukran","Mae alsalama","Naam","Laa","Hasanan"]
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","Sorry","How are you","Good luck","Good","Bad"],
+      "translatedWords":["Wahid","Itnan","Talata","Arba'a","Hamsa","Sitta","Sab'a","Tamaniya","Tis'a","Ashra","Marhaban","Min Fadlak","Shukran","Mae alsalama","Naam","Laa","Hasanan","‘aasif","kayfa haaluk","bittawfeeq","jayid","sayi’"]
     },    
     {"name":"Cornish", 
       "code":"co", 
@@ -12,8 +12,8 @@
     },
     {"name":"Russian", 
       "code":"ru", 
-      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
-      "translatedWords":["Adeen","Dva","Tree","Chyetirye","Pyat","Shest","Syem","Nosyem","Dyev-yat","Dyes-yat","Privet","pozhaluysta","Spasibo","do svidaniya","Da","Nyet","v poryadke"]
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","Excuse me"],
+      "translatedWords":["Adeen","Dva","Tree","Chyetirye","Pyat","Shest","Syem","Nosyem","Dyev-yat","Dyes-yat","Privet","pozhaluysta","Spasibo","do svidaniya","Da","Nyet","v poryadke","izviNIte"]
     },
     {"name":"Hebrew", 
       "code":"hb", 
@@ -22,8 +22,8 @@
     },
     {"name":"Spanish", 
       "code":"sp", 
-      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
-      "translatedWords":["uno","dos","tres","cuatro","cinco","seis","siete","ocho","nueve","diez","Hola","por favor","Gracias","Adios","Si","No","está bien"]
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","Sorry","My name is","How are you?","No problem","Maybe"],
+      "translatedWords":["uno","dos","tres","cuatro","cinco","seis","siete","ocho","nueve","diez","Hola","por favor","Gracias","Adios","Si","No","está bien","Lo siento","Me llamo","¿Cómo estás?","De nada","Tal vez"]
     },
     {"name":"Portuguese", 
       "code":"pt", 
