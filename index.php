@@ -30,6 +30,7 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/responsive.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+<!--    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,6 +41,8 @@
 
 </head>
 <body>
+
+
 <?php
 $string = file_get_contents("languages.json");
 $GLOBALS['json'] = json_decode($string, true);
@@ -74,8 +77,7 @@ if( isset($_REQUEST['lang']) ) {
 foreach ($GLOBALS['json']['language'] as $lang) {
 	if($lang['code'] == $langCode)	{
 		$randNo = rand(0,count($lang['englishWords'])-1);
-#		echo '<h1 class="bigNumber">' . $lang['englishWords'][$randNo] . '</h1>' . 
-#		'<div class="answer">'  . ucfirst($lang['translatedWords'][$randNo]) . '</div>';
+		$GLOBALS['englishword'] = $lang['englishWords'][$randNo];
 echo '<button class="button" type="button" data-hover="' . ucfirst($lang['translatedWords'][$randNo]) . '"> <span>'. $lang['englishWords'][$randNo] . '</span></button>';
 	}
 }
@@ -122,18 +124,31 @@ echo '<button class="button" type="button" data-hover="' . ucfirst($lang['transl
         </div><!-- /.hero-content -->
     </div><!-- /.hero -->
 
-
+<div id="cookieConsent">
+    <div id="closeCookieConsent"></div>
+    To see the translation, just hover over "<?php echo $GLOBALS['englishword'];?>" 
+</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!--    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+<!--    <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/script.js"></script> -->
 
+<script>
+$(document).ready(function(){   
+    setTimeout(function () {
+        $("#cookieConsent").fadeIn(100);
+     }, 0);
+    $("#closeCookieConsent, .cookieConsentOK").click(function() {
+        $("#cookieConsent").fadeOut(100);
+    }); 
+}); 
+</script>
   
 </body>
 </html>
