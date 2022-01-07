@@ -39,5 +39,10 @@
       "code":"gr", 
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["éna","dío","tría","tésera","pénde","éxi","eptá","októ","enéa","déka","YAH-soo","para-kah-LOE","eff-kha-ri-STOE","YAH-soo","neh","OH-hee","Entáxei"]
-    }             
+    },
+    {"name":"Scottish Gaelic", 
+      "code":"sc", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
+      "translatedWords":["aon","dhà","trì","ceithir","còig","sia","seachd","ochd","naoi","deich","Halò","Mas e do thoil e","Tapadh leat","mar sin leat","tha","Chan eil","ceart gu leòr"]
+    }               
 ]}  
