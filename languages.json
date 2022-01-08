@@ -20,6 +20,11 @@
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["Echad","Sh’nayeem","Sh’loshah","Arba-ah","Chameesha","Sheesha","Sheev-ah","Sh’monah","Teesh-ah","Ahsarah","Shalom","bevakasha","toda","lehitraot","Ken","Lo","beSeder"]
     },
+    {"name":"French", 
+      "code":"fr", 
+      "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","You're welcome", "I'm sorry","My name is","I love you","Woman","Man","See you later","I would like ..."],
+      "translatedWords":["Un","Deux","trois","quatre","sinq","six","sept","huit","neuf","dix","Bonjour","s'il vous plaît","Merci","Au revoir","Oui","Non","d'accord","De Rien","Je suis désolé","Je m’appelle","Je t’aime","Femme","Homme","À tout à l’heure","Je voudrais un ..."]
+    },
     {"name":"Spanish", 
       "code":"sp", 
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","Sorry","My name is","How are you?","No problem","Maybe"],
