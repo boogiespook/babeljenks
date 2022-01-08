@@ -56,14 +56,14 @@ if( isset($_REQUEST['lang']) )
 
 foreach ($GLOBALS['json']['language'] as $lang) {
 		if($lang['code'] == $langCode)	{
-			echo $lang['name'];
+			echo $lang['name'] . ' (' . count($lang['englishWords']) . ' Words)';
 		}
 	} 
 }
 
 function putJsonLanguage() {
 foreach ($GLOBALS['json']['language'] as $lang) {
-	print '<li><a href="index.php?lang=' . $lang['code'] . '">' . $lang['name'] . '</a></li>';
+	print '<li><a href="index.php?lang=' . $lang['code'] . '">' . $lang['name'] . ' (' . count($lang['englishWords']) .  ' Words)</a></li>';
 	} 
 }
 
@@ -119,7 +119,7 @@ echo '<button class="button" type="button" data-hover="' . ucfirst($lang['transl
         <div class="hero-content">
             <div class="hero-text">
                 <?php putWord(); ?>
-               <br> <a href="javascript:location.reload();" class="btn btn-border">Next</a>
+                <a href="javascript:location.reload();" class="btn btn-border">Next</a>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
     </div><!-- /.hero -->
