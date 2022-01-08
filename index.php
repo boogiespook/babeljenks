@@ -46,6 +46,7 @@
 <?php
 $string = file_get_contents("languages.json");
 $GLOBALS['json'] = json_decode($string, true);
+
 function putLanguage() {
 if( isset($_REQUEST['lang']) )
 {
@@ -56,7 +57,13 @@ if( isset($_REQUEST['lang']) )
 
 foreach ($GLOBALS['json']['language'] as $lang) {
 		if($lang['code'] == $langCode)	{
-			echo $lang['name'] . ' (' . count($lang['englishWords']) . ' Words)';
+			$languageLine = $lang['name'] . ' (' . count($lang['englishWords']) . ' Words)';
+			if ($lang['flag'] != "XXX") {
+			$languageFlag =  '<img src="assets/img/' . $lang['flag'] . '">';			
+			} else {
+			$languageFlag = "";
+			}
+			echo $languageFlag . '<span>Babel</span>Jenks - <span> ' . $languageLine . '</span>';
 		}
 	} 
 }
@@ -91,8 +98,8 @@ echo '<button class="button" type="button" data-hover="' . ucfirst($lang['transl
 
                 <div class="navbar-header">
                    
-                    <a class="site-title"><span>Babel</span>Jenks - <span><?php putLanguage(); ?></span></a>
 
+                    <a class="site-title"><?php putLanguage(); ?></a>
                 </div><!-- /.navbar-header -->
 
                 <div class="collapse navbar-collapse" id="agency-navbar-collapse">
@@ -127,6 +134,7 @@ echo '<button class="button" type="button" data-hover="' . ucfirst($lang['transl
 <div id="cookieConsent">
     <div id="closeCookieConsent"></div>
     To see the translation, just hover over "<?php echo $GLOBALS['englishword'];?>" 
+    <p class="smallFont">Flag icons by <a href="https://www.freeflagicons.com">https://www.freeflagicons.com</a></p>
 </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -149,6 +157,6 @@ $(document).ready(function(){
     }); 
 }); 
 </script>
-  
+  ">
 </body>
 </html>
