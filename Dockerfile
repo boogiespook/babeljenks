@@ -1,4 +1,4 @@
-FROM ubi8/php-74 
+FROM registry.access.redhat.com/ubi8/php-74:latest
 MAINTAINER Chris Jenkins "chrisj@redhat.com"
 EXPOSE 8000
 COPY . /opt/app-root/src
