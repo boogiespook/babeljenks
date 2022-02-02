@@ -2,52 +2,68 @@
   "language":[    
     {"name":"Arabic", 
       "code":"ar", 
+      "flag": "XXX",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","Sorry","How are you","Good luck","Good","Bad"],
       "translatedWords":["Wahid","Itnan","Talata","Arba'a","Hamsa","Sitta","Sab'a","Tamaniya","Tis'a","Ashra","Marhaban","Min Fadlak","Shukran","Mae alsalama","Naam","Laa","Hasanan","‘aasif","kayfa haaluk","bittawfeeq","jayid","sayi’"]
     },    
     {"name":"Cornish", 
       "code":"co", 
+      "flag": "XXX",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["onan","dew","tri","peswar","pymp","hwegh","seyth","eth","naw","deg","Lowena dhis","Mar pleg","Meur ras","Duw genes","Ya","Na","Ok"]
     },
     {"name":"Russian", 
       "code":"ru", 
+      "flag": "russia_round_icon_64.png",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","Excuse me"],
       "translatedWords":["Adeen","Dva","Tree","Chyetirye","Pyat","Shest","Syem","Nosyem","Dyev-yat","Dyes-yat","Privet","pozhaluysta","Spasibo","do svidaniya","Da","Nyet","v poryadke","izviNIte"]
     },
     {"name":"Hebrew", 
       "code":"hb", 
+      "flag": "israel_round_icon_64.png",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["Echad","Sh’nayeem","Sh’loshah","Arba-ah","Chameesha","Sheesha","Sheev-ah","Sh’monah","Teesh-ah","Ahsarah","Shalom","bevakasha","toda","lehitraot","Ken","Lo","beSeder"]
     },
     {"name":"French", 
       "code":"fr", 
+      "flag": "france_round_icon_64.png",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","You're welcome", "I'm sorry","My name is","I love you","Woman","Man","See you later","I would like ..."],
       "translatedWords":["Un","Deux","trois","quatre","sinq","six","sept","huit","neuf","dix","Bonjour","s'il vous plaît","Merci","Au revoir","Oui","Non","d'accord","De Rien","Je suis désolé","Je m’appelle","Je t’aime","Femme","Homme","À tout à l’heure","Je voudrais un ..."]
     },
     {"name":"Spanish", 
       "code":"sp", 
+      "flag": "spain_round_icon_64.png",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK","Sorry","My name is","How are you?","No problem","Maybe"],
       "translatedWords":["uno","dos","tres","cuatro","cinco","seis","siete","ocho","nueve","diez","Hola","por favor","Gracias","Adios","Si","No","está bien","Lo siento","Me llamo","¿Cómo estás?","De nada","Tal vez"]
     },
     {"name":"Portuguese", 
       "code":"pt", 
+      "flag": "portugal_round_icon_64.png",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["Um","Dois","Três","Quatro","Cinco","Seis","Sete","Oito","Nove","Dez","Olá","por favor","obrigado","adeus","sim","não","OK"]
     },
     {"name":"German", 
       "code":"de", 
+      "flag": "germany_round_icon_64.png",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["Eins","Zwei","Drei","Vier","Fünf","Sechs","Sieben","Acht","Neun","Zehn","Hallo","Bitte","Danke","Auf Wiedersehen","Ja","Nein","alles ist gut"]
     },
     {"name":"Greek", 
       "code":"gr", 
+      "flag": "greece_round_icon_64.png",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
-      "translatedWords":["éna","dío","tría","tésera","pénde","éxi","eptá","októ","enéa","déka","YAH-soo","para-kah-LOE","eff-kha-ri-STOE","YAH-soo","neh","OH-hee","Entáxei"]
+      "translatedWords":["éna","dío","tría","tésera","pénde","éxi","eptá","októ","enéa","déka","Yasoo","para-kah-LOE","eff-kha-ri-STOE","YAH-soo","neh","OH-hee","Entáxei"]
     },
     {"name":"Scottish Gaelic", 
       "code":"sc", 
+      "flag": "XXX",
       "englishWords" : ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Hello","Please","Thanks", "Goodbye","Yes","No","OK"],
       "translatedWords":["aon","dhà","trì","ceithir","còig","sia","seachd","ochd","naoi","deich","Halò","Mas e do thoil e","Tapadh leat","mar sin leat","tha","Chan eil","ceart gu leòr"]
-    }               
+    },
+    {"name":"European Capitals", 
+      "code":"eu-cap", 
+      "flag": "XXX",
+      "englishWords" : ["Albania","Andorra","Armenia","Austria","Azerbaijan","Belarus","Belgium","Bosnia","Bulgaria","Croatia","Cyprus","Czechia","Denmark","Estonia","Finland","France","Georgia","Germany","Greece","Hungary","Iceland","Ireland","Italy","Latvia","Liechtenstein","Lithuania","Luxembourg","Malta","Moldova","Monaco","Montenegro","Netherlands","North","Norway","Poland","Portugal","Romania","Russia","San","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Turkey","Ukraine","United","Vatican"],
+      "translatedWords":["Tirana","Andorra","Yerevan","Vienna","Baku","Minsk","Brussels","and","Sofia","Zagreb","Nicosia","Prague","Copenhagen","Tallinn","Helsinki","Paris","Tbilisi","Berlin","Athens","Budapest","Reykjavik","Dublin","Rome","Riga","Vaduz","Vilnius","Luxembourg","Valletta","Chisinau","Monaco","Podgorica","Amsterdam","Macedonia","Oslo","Warsaw","Lisbon","Bucharest","Moscow","Marino","Belgrade","Bratislava","Ljubljana","Madrid","Stockholm","Bern","Ankara","Kiev","Kingdom","Vatican City"]
+    }                              
 ]}  
