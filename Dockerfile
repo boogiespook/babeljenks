@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel9/php-80@sha256:53a15af962ea77a2d6c6b1627195e40083c926effe041b897f867299b42f62bb 
+FROM registry.access.redhat.com/ubi9/php-81@sha256:b8aad438bb5f0560dace89cc63ae85f503297ef99096cf471574109a7f68ca45
 MAINTAINER Chris Jenkins "chrisj@redhat.com"
 EXPOSE 8000
 COPY . /opt/app-root/src
