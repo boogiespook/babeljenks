@@ -10,7 +10,7 @@ jobs:
 
   build:
 
-    runs-on: registry.access.redhat.com/ubi8/php-74:latest
+    runs-on: registry.access.redhat.com/ubi8/php-81:latest
 
     steps:
     - uses: actions/checkout@v2
